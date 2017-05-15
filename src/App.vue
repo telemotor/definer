@@ -22,12 +22,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
   background-color: black;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 50px;
   vertical-align: middle;
+  z-index: 9999;
 }
 
 h1, h2 {
