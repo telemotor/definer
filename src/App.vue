@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="telemotor-application">
     {{ msg }}
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
+#telemotor-application {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
